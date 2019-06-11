@@ -1,4 +1,8 @@
 module.exports = {
+
+  css: [
+    '~assets/bulma-scss-master/bulma.scss'
+  ],
   /*
   ** Headers of the page
   */
@@ -13,6 +17,7 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+
   /*
   ** Customize the progress bar color
   */
