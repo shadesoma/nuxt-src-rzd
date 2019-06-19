@@ -1,11 +1,11 @@
 <template>
-  <div class="loginByCode">
+  <div class="UserLogin">
     <div class="container">
       <section class="hero">
         <div class="hero-body">
           <div class="container">
             <div class="columns is-centered">
-              <div class="column is-9">
+              <div class="column is-12">
                 <h1 class="title is-4 has-text-centered has-text-white">
                   Вход в личный кабинет
                 </h1>
@@ -28,7 +28,7 @@
                 <div class="buttons are-large">
                   <a class="loginButton button is-fullwidth">Войти</a>
                   <nuxt-link class="linkButton button is-fullwidth is-danger is-inverted is-outlined" to="/loginByCode">
-                    <span class="is-size-6">
+                    <span class="is-size-7">
                       Вход для участников мероприятия
                     </span>
                   </nuxt-link>
@@ -65,11 +65,11 @@
   }
 
   .topField{
-    border-radius: 5px 5px 0 0;
+    border-radius: 7px 7px 0 0;
   }
 
   .bottomField {
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 7px 7px;
   }
 
   .topInput {
@@ -97,6 +97,6 @@
   }
 
   .linkButton {
-    font-size: 1rem;
+    font-size: .5rem;
   }
 </style>
