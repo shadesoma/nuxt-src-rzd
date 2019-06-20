@@ -17,7 +17,8 @@
                   </p>
                 </div>
                 <div class="buttons are-large">
-                  <a class="loginButton button is-fullwidth">Войти</a>
+                  <nuxt-link class="loginButton button is-fullwidth" to="/eventsList">Войти
+                  </nuxt-link>
                   <nuxt-link class="linkButton button is-fullwidth is-danger is-inverted is-outlined" to="/login">
                     <span class="is-size-6">
                       Вход в личный кабинет
