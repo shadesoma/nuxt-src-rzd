@@ -12,3 +12,6 @@ dist
 
 #idea settings
 .idea
+
+#icon
+static/icons
