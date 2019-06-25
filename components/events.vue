@@ -28,6 +28,7 @@
           <div class="column level-right is-paddingless">
             <div>
               <p class="is-size-7-mobile" style="">{{event.status}}</p>
+              <!-- ugly crutch-->
               <p class="has-text-white is-size-7-mobile">Кастыль</p>
               <p class="has-text-white is-size-7-mobile">Кастыль</p>
             </div>
