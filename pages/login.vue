@@ -26,7 +26,11 @@
                   </div>
                 </div>
                 <div class="buttons are-large">
-                  <a class="loginButton button is-fullwidth">Войти</a>
+                  <a class="loginButton button is-fullwidth">
+                    <span class="is-size-6">
+                      Войти
+                    </span>
+                  </a>
                   <nuxt-link class="linkButton button is-paddingless is-fullwidth is-danger is-inverted is-outlined" to="/loginByCode">
                     <p class="is-size-6">
                       Вход для участников мероприятия
@@ -81,19 +85,13 @@
   }
 
   .loginButton {
-    box-shadow: inset 0 1px 0 0 #ffffff;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf', GradientType=0);
-    background: #ededed linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
-    border-radius: 6px;
-    color: #ED2400;
-    font-size: 15px;
-    text-decoration: none;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(145,145,145,1) 100%);
+    color: #ed2400;
     margin-bottom: 20px;
   }
 
   .loginButton:hover {
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed', GradientType=0);
-    background: #dfdfdf linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background: linear-gradient(to bottom, rgba(145,145,145,1) 0%, rgba(255,255,255,1) 100%);
   }
 
   .linkButton {
