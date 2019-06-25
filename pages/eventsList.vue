@@ -18,7 +18,7 @@
                 </a>
               </p>
                 <span class="icon is-medium fa-lg has-text-white">
-                  <a @click="showExitMenu"><img src="../static/icons/Silhouette.png" style="height: 24px; width: 24px" alt="user"></a>
+                  <a @click="showExitMenu"><img :src="userIcon" style="height: 24px; width: 24px" alt="user"></a>
                 </span>
             </div>
           </div>
@@ -57,6 +57,8 @@
 </template>
 
 <script>
+  const userIcon = require('../static/icons/Silhouette.png')
+
   import Events from '../components/events'
   import ModalMenuExit from './modalMenuExit'
 
@@ -73,7 +75,8 @@
         date: '',
         time: '',
         eventSelected: false,
-        exitMenuModalVisible: false
+        exitMenuModalVisible: false,
+        userIcon: userIcon
       }
     },
     mounted () {
