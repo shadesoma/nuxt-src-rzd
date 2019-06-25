@@ -17,6 +17,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  scripts: {
+    "deploy": "gh-pages -d dist"
+  },
 
   /*
   ** Customize the progress bar color
