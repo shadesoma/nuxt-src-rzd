@@ -27,10 +27,10 @@
                 </div>
                 <div class="buttons are-large">
                   <a class="loginButton button is-fullwidth">Войти</a>
-                  <nuxt-link class="linkButton button is-fullwidth is-danger is-inverted is-outlined" to="/loginByCode">
-                    <span class="is-size-7">
+                  <nuxt-link class="linkButton button is-paddingless is-fullwidth is-danger is-inverted is-outlined" to="/loginByCode">
+                    <p class="is-size-6">
                       Вход для участников мероприятия
-                    </span>
+                    </p>
                   </nuxt-link>
                 </div>
               </div>
@@ -97,6 +97,5 @@
   }
 
   .linkButton {
-    font-size: .5rem;
   }
 </style>
