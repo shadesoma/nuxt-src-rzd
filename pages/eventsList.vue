@@ -9,10 +9,16 @@
             </div>
             <div class="level-right">
               <p class="has-text-white">
-                Здравствуйте, {{user}}!
+                Здравствуйте,
+              </p>
+              &nbsp;
+              <p class="has-text-white">
+                <a @click="showExitMenu" class="has-text-white">
+                {{user}}!
+                </a>
               </p>
                 <span class="icon is-medium fa-lg has-text-white">
-                  <img src="../static/icons/Silhouette.png" style="height: 24px; width: 24px" alt="user">
+                  <a @click="showExitMenu"><img src="../static/icons/Silhouette.png" style="height: 24px; width: 24px" alt="user"></a>
                 </span>
             </div>
           </div>
@@ -37,7 +43,13 @@
               </h1>
             </div>
           </div>
+          <!-- event component -->
           <events/>
+          <!-- modal component -->
+          <modalMenuExit
+            v-if="exitMenuModalVisible"
+            @close="closeExitMenu"
+          />
         </div>
       </div>
     </div>
@@ -46,10 +58,12 @@
 
 <script>
   import Events from '../components/events'
+  import ModalMenuExit from './modalMenuExit'
 
   export default {
     name: 'eventsList',
     components: {
+      ModalMenuExit,
       Events
     },
     data () {
@@ -58,7 +72,8 @@
         id: 0,
         date: '',
         time: '',
-        eventSelected: false
+        eventSelected: false,
+        exitMenuModalVisible: false
       }
     },
     mounted () {
@@ -74,7 +89,16 @@
       }
       this.date = date.toLocaleString('ru', eventDate)
       this.time = date.toLocaleString('ru', eventTime)
-    }
+    },
+    methods: {
+      showExitMenu () {
+        this.exitMenuModalVisible = true
+      },
+
+      closeExitMenu () {
+        this.exitMenuModalVisible = false
+      },
+    },
   }
 </script>
 
