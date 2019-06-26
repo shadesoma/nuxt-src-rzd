@@ -1,10 +1,4 @@
 module.exports = {
-
-  mode: 'spa',
-  router: {
-    base: '/nuxt-src-rzd/'
-  },
-
   css: [
     '~assets/bulma-scss-master/bulma.scss'
   ],
