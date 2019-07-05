@@ -1,0 +1,19 @@
+@import "bulma-scss-master/utilities/all";
+@import "bulma-scss-master/elements/all";
+
+
+@font-face {
+  font-family: 'SFUIDisplay-Medium';
+  src: local('SFUIDisplay-Medium'), url('../fonts/SFUIDisplay-Medium.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-Bold';
+  src: local('SFUIDisplay-Bold'), url('../fonts/SFUIDisplay-Bold.otf') format('woff');
+}
+
+$title-family: 'SFUIDisplay-Heavy';
+$family-primary: 'SFUIDisplay-Medium';
+$button-family: 'SFUIDisplay-Bold';
+
+@import "bulma-scss-master/bulma";
