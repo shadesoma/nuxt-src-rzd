@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'SFUIDisplay-Heavy';
+  src: local('SFUIDisplay-Heavy'), url('../fonts/SFUIDisplay-Heavy.otf') format('woff');
+}
+
+.titleLogin {
+  font-family: 'SFUIDisplay-Heavy', sans-serif;
+  font-size: 30px;
+  margin-bottom: 62px;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .titleLogin {
+    margin-bottom: 44px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .titleLogin {
+    font-size: 20px;
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .titleLogin {
+    font-size: 20px;
+    margin-bottom: 26px;
+  }
+}
