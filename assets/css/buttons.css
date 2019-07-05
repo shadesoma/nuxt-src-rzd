@@ -1,0 +1,46 @@
+.btn {
+  width: 584px;
+  height: 86px;
+  margin-bottom: 62px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .btn {
+    width: 718px;
+    height: 106px;
+    margin-bottom: 44px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .btn {
+    width: 400px;
+    height: 51px;
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .btn {
+    width: 346px;
+    height: 51px;
+    margin-bottom: 26px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .btn {
+    width: 285px;
+    height: 51px;
+  }
+}
+
+.btn-grey{
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(145, 145, 145, 1) 100%);
+  color: #ed2400;
+}
+.btn-grey:hover {
+  background: linear-gradient(to bottom, rgba(145, 145, 145, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
