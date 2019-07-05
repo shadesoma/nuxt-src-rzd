@@ -1,0 +1,80 @@
+/*----------fieldSingleLine----------*/
+
+.fieldSingleLine {
+  width: 584px;
+  height: 86px;
+  border: 1px solid #c8c8c8;
+  border-radius: 6px;
+  margin-bottom: 62px;
+}
+
+@media screen and (max-width: 1024px) {
+  .fieldSingleLine {
+    width: 718px;
+    height: 106px;
+    margin-bottom: 44px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .fieldSingleLine {
+    width: 400px;
+    height: 51px;
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .fieldSingleLine {
+    width: 346px;
+    height: 51px;
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .fieldSingleLine {
+    width: 285px;
+    height: 51px;
+    margin-bottom: 26px;
+  }
+}
+
+/*----------inputSingleLine------------*/
+
+.inputSingleLine {
+  width: 582px;
+  height: 84px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .inputSingleLine {
+    width: 716px;
+    height: 104px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .inputSingleLine {
+    width: 400px;
+    height: 49px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .inputSingleLine {
+    width: 344px;
+    height: 49px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .inputSingleLine {
+    width: 283px;
+    height: 49px;
+  }
+}
