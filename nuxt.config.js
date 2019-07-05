@@ -6,7 +6,9 @@ module.exports = {
   },
 
   css: [
-    '~assets/bulma-scss-master/bulma.scss'
+    'assets/css/style.scss',
+    'assets/css/buttons.css',
+    'assets/css/title-login.css'
   ],
   /*
   ** Headers of the page
