@@ -20,6 +20,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: rgba(237, 0, 0, 1);
+  background: linear-gradient(to bottom, rgba(237, 0, 0, 1) 0%, rgba(237, 0, 0, 1) 57%, rgba(151, 0, 0, 1) 100%);
+  background-attachment: fixed;
 }
 </style>
 
