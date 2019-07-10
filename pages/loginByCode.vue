@@ -1,6 +1,6 @@
 <template>
   <div class="loginByCode">
-    <div class="column center">
+    <div class="column center is-paddingless">
       <h1 class="titleLogin">
         Вход для участников
       </h1>
@@ -40,10 +40,6 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-/*Исправить кастыль*/
-.lol {
-  margin: 0;
 }
 
 </style>
