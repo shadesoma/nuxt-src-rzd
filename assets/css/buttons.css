@@ -18,12 +18,22 @@
     width: 400px;
     height: 51px;
     margin-bottom: 26px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 414px) {
   .btn {
     width: 346px;
+    height: 51px;
+    margin-bottom: 26px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .btn {
+    width: 320px;
     height: 51px;
     margin-bottom: 26px;
     font-size: 15px;
