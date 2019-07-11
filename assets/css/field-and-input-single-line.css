@@ -32,6 +32,14 @@
   }
 }
 
+@media screen and (max-width: 360px) {
+  .fieldSingleLine {
+    width: 320px;
+    height: 51px;
+    margin-bottom: 26px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .fieldSingleLine {
     width: 285px;
@@ -58,7 +66,7 @@
 
 @media screen and (max-width: 745px) {
   .inputSingleLine {
-    width: 400px;
+    width: 398px;
     height: 49px;
     font-size: 20px;
   }
@@ -67,6 +75,14 @@
 @media screen and (max-width: 414px) {
   .inputSingleLine {
     width: 344px;
+    height: 49px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .inputSingleLine {
+    width: 318px;
     height: 49px;
     font-size: 20px;
   }
