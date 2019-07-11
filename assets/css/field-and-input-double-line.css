@@ -1,0 +1,200 @@
+.field {
+  border: 1px solid #c8c8c8;
+  margin: 0;
+}
+
+/*-----------top field-------------*/
+
+.topField {
+  width: 584px;
+  height: 86px;
+  border-radius: 7px 7px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .topField {
+    width: 718px;
+    height: 106px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .topField {
+    width: 400px;
+    height: 51px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .topField {
+    width: 346px;
+    height: 51px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .topField {
+    width: 320px;
+    height: 51px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .topField {
+    width: 285px;
+    height: 51px;
+  }
+}
+
+/*-----------bottom field------------*/
+
+.bottomField {
+  width: 584px;
+  height: 86px;
+  border-radius: 0 0 7px 7px;
+}
+
+@media screen and (max-width: 1024px) {
+  .bottomField {
+    width: 718px;
+    height: 106px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .bottomField {
+    width: 400px;
+    height: 51px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .bottomField {
+    width: 346px;
+    height: 51px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .bottomField {
+    width: 320px;
+    height: 51px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bottomField {
+    width: 285px;
+    height: 51px;
+  }
+}
+
+/*-----------top input--------------*/
+
+.topInput {
+  width: 582px;
+  height: 84px;
+  border-radius: 5px 5px 0 0;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .topInput {
+    width: 716px;
+    height: 104px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .topInput {
+    width: 400px;
+    height: 49px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .topInput {
+    width: 344px;
+    height: 49px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .topInput {
+    width: 318px;
+    height: 49px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .topInput {
+    width: 283px;
+    height: 49px;
+  }
+}
+
+/*-----------bottom input-----------*/
+
+.bottomInput {
+  width: 582px;
+  height: 84px;
+  border-radius: 0 0 5px 5px;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .bottomInput {
+    width: 718px;
+    height: 106px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .bottomInput {
+    width: 400px;
+    height: 49px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .bottomInput {
+    width: 344px;
+    height: 49px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .bottomInput {
+    width: 318px;
+    height: 49px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bottomInput {
+    width: 283px;
+    height: 49px;
+  }
+}
+
+/*----------margin bottom----------*/
+
+.fieldset {
+  margin-bottom: 62px;
+}
+
+@media screen and (max-width: 1024px) {
+  .fieldset {
+    margin-bottom: 44px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .fieldset {
+    margin-bottom: 26px;
+  }
+}
