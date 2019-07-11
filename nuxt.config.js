@@ -8,7 +8,7 @@ module.exports = {
   css: [
     'assets/css/style.scss',
     'assets/css/buttons.css',
-    'assets/css/title-login.css'
+    'assets/css/title.css'
   ],
   /*
   ** Headers of the page
